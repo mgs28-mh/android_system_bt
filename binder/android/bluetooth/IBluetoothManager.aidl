@@ -56,7 +56,7 @@ interface IBluetoothManager
     boolean disableBle(String packageName, IBinder b);
     boolean isBleAppPresent();
     boolean isHearingAidProfileSupported();
-
     List<String> getSystemConfigEnabledProfilesForPackage(String packageName);
+    boolean factoryReset();
 }
 
